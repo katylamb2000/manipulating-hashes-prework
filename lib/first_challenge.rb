@@ -13,7 +13,7 @@ def first_challenge
     }
   }
 
-   contacts.each do |attribute, value|
+   contacts.collect do |attribute, value|
     delete "#{favorite_icecream_flavors}: #{strawberry}"
   
 end
