@@ -15,9 +15,10 @@ def first_challenge
 
    data.each do |attribute, value|
     puts "#{attribute}: #{value}"
-  end
+  
 end
 
 
-  contacts
+  puts contacts
 
+end
