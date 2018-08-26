@@ -13,7 +13,7 @@ def first_challenge
     }
   }
 
-contacts.each {|k,v| v.delete(:favorite_icecream_flavors) if k == :clubs}
+contacts.each {|k,v| v.delete(:strawberry) if k == :favorite_icecream_flavors}
   
 end
 
