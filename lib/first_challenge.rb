@@ -13,8 +13,8 @@ def first_challenge
     }
   }
 
-   data.each do |attribute, value|
-    puts "#{attribute}: #{value}"
+   contacts.each do |attribute, value|
+    delete "#{favorite_icecream_flavors}: #{strawberry}"
   
 end
 
