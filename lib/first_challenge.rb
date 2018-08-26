@@ -17,5 +17,5 @@ contacts["Freddy Mercury"][:favorite_icecream_flavors].delete "strawberry"
   
 end
 
-  puts contacts
+  contacts
 
