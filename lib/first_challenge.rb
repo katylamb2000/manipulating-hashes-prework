@@ -13,7 +13,7 @@ def first_challenge
     }
   }
 
-contacts["Freddy Mercury"][:favorite_icecream_flavors].delete "strawberry"
+contacts.each {|k,v| v.delete(:favorite_icecream_flavors) if k == :clubs}
   
 end
 
