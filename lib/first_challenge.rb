@@ -13,12 +13,10 @@ def first_challenge
     }
   }
 
-   contacts.collect do |attribute, value|
-    delete "#{favorite_icecream_flavors}: #{strawberry}"
+contacts["Freddy Mercury"][:favorite_icecream_flavors].delete "strawberry"
   
 end
 
-
-  puts contacts
+  contacts
 
 end
